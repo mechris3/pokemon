@@ -1,0 +1,34 @@
+{
+    "name": "pokemon",
+    "version": "1.0.0",
+    "description": "",
+    "main": "pokemon/pokemon.ts",
+    "scripts": {
+        "test": "npx jest",
+        "start": "npx ts-node pokemon/main.ts",
+        "dev": "nodemon --exec npx ts-node pokemon/main.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/cheerio": "^0.22.31",
+        "axios": "^1.4.0",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.19.2",
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "@types/jest": "^29.5.2",
+        "@types/node": "^20.2.5",
+        "jest": "^29.5.0",
+        "nodemon": "^2.0.22",
+        "ts-jest": "^29.1.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.3"
+    }
+}
